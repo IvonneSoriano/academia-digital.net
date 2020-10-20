@@ -9,7 +9,10 @@
 .wrap {
     position: relative;
 }
-
+body.openMenu{
+    height: 100vh;
+    overflow: hidden;
+}
 /* H E A D E R */
 header {
     position: absolute;
