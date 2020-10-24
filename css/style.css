@@ -21,7 +21,9 @@ header {
     transition: height 0.3s ease-in;
 }
 
-
+.navbar{
+    padding: 0!important;
+}
 
 
 .nav-item {
@@ -30,7 +32,7 @@ header {
 .nav-item .nav-link.pill {
     background-color: white;
     color: #3eb1c8;
-    padding: 15px 25px!important;
+    padding: 7px 25px!important;
     border-radius: 25px;
 }
 
@@ -109,7 +111,7 @@ header {
 }
 
 header.sticky {
-    height: 86px;
+    height: 74px;
     position: fixed;
     z-index: 1000000;
     background-color: #3eb1c8;
@@ -265,6 +267,10 @@ header.sticky .container {
 .video .img img {
     max-width: 100%;
 }
+.video .img img:hover {
+    box-shadow: 3px 3px 12px rgba(0, 0, 0, 0.15);
+    transform: scale(1.01);
+}
 
 .video .features {
     padding-left: 20px;
@@ -289,6 +295,7 @@ header.sticky .container {
     width: 30px;
     height: 30px;
 }
+
 
 @media(max-width:768px) {
     .video {
