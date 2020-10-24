@@ -124,7 +124,7 @@ header.sticky .container {
     padding-top: 0 !important;
 }
 
-@media(max-width:768px) {
+@media(max-width:992px) {
     header.open {
         height: 100vh;
         background-color: #3eb1c8;
@@ -244,7 +244,7 @@ header.sticky .container {
 
 
 
-@media(max-width: 768px) {
+@media(max-width: 992px) {
     .mision {
         height: auto;
     }
@@ -297,7 +297,7 @@ header.sticky .container {
 }
 
 
-@media(max-width:768px) {
+@media(max-width:992px) {
     .video {
         height: auto;
     }
